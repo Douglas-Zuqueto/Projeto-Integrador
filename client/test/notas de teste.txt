@@ -1,0 +1,8 @@
+O teste de cadastro de produtos enfrenta problemas com a questão do upload de imagens, 
+o cadastro em si é completamente funcional, porém não consegui automatizar o test com Selenium
+devido a essa interação no upload de imagem. Todos os outros testes funcionam corretamente.
+
+Ordem para rodar os testes: Login Admin, Cadastro Produto, Editar Produto, Excluir Produto,
+Logout Admin, Login Conta Google e Realizar Compra. A qualquer momento o teste de pesquisa 
+pode ser realizado. A ordem é essencial para o funcionamento da bateria de testes devido a 
+natureza do sistema e sua comunicação com o banco de dados e criação de elementos.
