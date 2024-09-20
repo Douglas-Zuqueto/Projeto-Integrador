@@ -8,18 +8,10 @@ Para garantir o funcionamento correto da aplicação, siga estes passos:
    - Verifique se o MySQL está configurado e em execução na sua máquina.
    - Configure extensões e plugins necessários no seu ambiente de desenvolvimento para interagir com o MySQL.
 
-3. _**Configuração do Arquivo .env:**_
-   - Na pasta `server`, crie um arquivo `.env` na raiz.
-   - Dentro do arquivo `.env`, adicione a seguinte linha para configurar a porta:
-     
-     - PORT=3000
-     
-   - Isso define a porta padrão para o servidor backend.
-
-4. _**Inicialização dos Servidores:**_
+3. _**Inicialização dos Servidores:**_
    - Abra dois terminais separados, um para a pasta `client` e outro para a pasta `server`.
 
-5. _**Comandos de Inicialização:**_
+4. _**Comandos de Inicialização:**_
    - No terminal da pasta `client`, digite:
      
      - npm run dev
@@ -32,7 +24,7 @@ Para garantir o funcionamento correto da aplicação, siga estes passos:
     
    - Isso iniciará o servidor backend.
 
-6. _**Visualização da Aplicação:**_
+5. _**Visualização da Aplicação:**_
    - Após iniciar ambos os servidores, você pode acessar o site através do link `localhost` exibido no terminal da pasta client.
    - Certifique-se de usar as portas corretas configuradas nos scripts de inicialização, como `localhost:5173` para o cliente e `localhost:3000` (ou a porta especificada no `.env`) para o servidor.
 
